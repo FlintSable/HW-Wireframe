@@ -9,14 +9,30 @@ body {
 }
 
 header {
-	background-color: #ebebeb;
-	margin:5px;
-	height: 30px;
-	width: 75%;
 	display: block;
+	margin: 8px 100px 0px 100px;
+	background-color: #ebebeb;
+	text-align: center;
+	height: 120px;
+	line-height: 120px;
+	font-size: 2em;
+	font-family: 'Roboto';
+	color: #777777;
+
+
 }
 
 nav {
+	display: block;
+	margin: 8px 100px 0px 100px;
+	background-color: #ebebeb;
+	height: 120px;
+	line-height: 120px;
+	text-align: center;
+	font-size: 1.6em;
+	font-family: 'Roboto';
+	color: #777777;
+
 
 }
 
