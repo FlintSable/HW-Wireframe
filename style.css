@@ -1,10 +1,12 @@
  * {
     text-align: center;
-    font-family: Arial;
+
   }
 
 body {
 	background-color: #777777;
+	font-family: 'Roboto';
+
 
 }
 
@@ -16,7 +18,6 @@ header {
 	height: 120px;
 	line-height: 120px;
 	font-size: 2em;
-	font-family: 'Roboto';
 	color: #777777;
 
 
@@ -30,7 +31,6 @@ nav {
 	line-height: 120px;
 	text-align: center;
 	font-size: 1.6em;
-	font-family: 'Roboto';
 	color: #777777;
 
 }
@@ -47,12 +47,14 @@ section {
 	display: inline-block;
 	float:left;
 	/*line-height: 120px;*/
-	margin: 0px 0px 0px 0px;
+	margin: 0px 0px 1% 0px;
 	background-color: #ebebeb;
 
 }
 
 article {
+	color: #ebebeb;
+	font-family: 'Roboto';
 	width: 95%;
 	height: 150px;
 	margin: 30px 10% 0px 2.5%;
@@ -60,18 +62,19 @@ article {
 }
 div.box-set{
 	clear:both;
-	/*margin: 10% 4% 4% 4%;*/
+	line-height: 30px
+
+
 }
 
-/*.box-set {
-	overflow: auto;
 
-	}*/
 .box {
 	/*position:relative;*/
 	height:34px;
 	width: 90%;
 	background-color:#ebebeb;
+	color: #777777;
+	font-weight: bold;
 	margin:10px 0px 4px 5%;
 	margin-left: 5%;
 }
@@ -79,19 +82,28 @@ div.box-set{
 
 
 aside {
+	font-family: 'Roboto';
 	height: 360px;
 	width: 40%;
 	display: inline;
 	float: right;
 	margin: 0px 0px 0px 0px;
 	background-color: #ebebeb;
+	color: #777777;
+	line-height: 120px;
+
 	
 }
 
 footer {
-	clear:both;
-	height: 40px;
+	font-family: 'Roboto';
+	clear: both;
+	display: block;
+	height: 60px;
 	background-color: #ebebeb;
+	margin: 8px 100px 0px 100px;
+	line-height: 50px;
+
 	
 
 }
