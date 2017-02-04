@@ -46,7 +46,6 @@ section {
 	width: 59%;
 	display: inline-block;
 	float:left;
-	/*line-height: 120px;*/
 	margin: 0px 0px 1% 0px;
 	background-color: #ebebeb;
 
@@ -69,7 +68,6 @@ div.box-set{
 
 
 .box {
-	/*position:relative;*/
 	height:34px;
 	width: 90%;
 	background-color:#ebebeb;
