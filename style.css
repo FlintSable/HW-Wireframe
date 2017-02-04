@@ -1,8 +1,8 @@
  * {
     text-align: center;
     font-family: Arial;
-    line-height: 60px;
   }
+
 body {
 	background-color: #777777;
 
@@ -33,16 +33,65 @@ nav {
 	font-family: 'Roboto';
 	color: #777777;
 
+}
 
+.TwoRow{
+	margin: 12px 100px 12px 100px;
+
+}
+
+
+section {
+	height: 360px;	
+	width: 59%;
+	display: inline-block;
+	float:left;
+	/*line-height: 120px;*/
+	margin: 0px 0px 0px 0px;
+	background-color: #ebebeb;
+
+}
+
+article {
+	width: 95%;
+	height: 150px;
+	margin: 30px 10% 0px 2.5%;
+	background-color: #777777; 
+}
+div.box-set{
+	clear:both;
+	/*margin: 10% 4% 4% 4%;*/
+}
+
+/*.box-set {
+	overflow: auto;
+
+	}*/
+.box {
+	/*position:relative;*/
+	height:34px;
+	width: 90%;
+	background-color:#ebebeb;
+	margin:10px 0px 4px 5%;
+	margin-left: 5%;
+}
+
+
+
+aside {
+	height: 360px;
+	width: 40%;
+	display: inline;
+	float: right;
+	margin: 0px 0px 0px 0px;
+	background-color: #ebebeb;
+	
 }
 
 footer {
-
-}
-
-section{
-
-}
-aside {
+	clear:both;
+	height: 40px;
+	background-color: #ebebeb;
 	
+
 }
